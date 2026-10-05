@@ -55,7 +55,7 @@ const dateLongue = (t) => new Date(t).toLocaleString("fr-FR", { dateStyle: "long
 
 function avatar(id, taille = "") {
   const u = utilisateur(id)
-  if (!u) return `<span class="avatar vide ${taille}" title="Non attribuée" aria-hidden="true">?</span>`
+  if (!u) return `<span class="avatar aucun ${taille}" title="Non attribuée" aria-hidden="true">?</span>`
   return `<span class="avatar ${taille}" style="background:${u.couleur}" title="${h(u.nom)}" aria-hidden="true">${h(u.nom[0])}</span>`
 }
 

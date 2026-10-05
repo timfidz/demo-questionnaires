@@ -157,7 +157,7 @@ body.mode-public { background: linear-gradient(180deg, var(--accent-clair), var(
 @keyframes neuve { 0% { box-shadow: 0 0 0 0 rgb(15 118 110 / 55%); } 100% { box-shadow: 0 0 0 12px rgb(15 118 110 / 0%); } }
 .avatar { width: 1.8rem; height: 1.8rem; border-radius: 50%; color: #fff; display: inline-grid; place-items: center; line-height: 1; font-weight: 700; font-size: .85rem; flex: none; }
 .avatar.petit { width: 1.5rem; height: 1.5rem; font-size: .75rem; }
-.avatar.vide { background: #fff; color: var(--doux); border: 1px dashed #8a9893; }
+.avatar.aucun { background: #fff; color: var(--doux); border: 1px dashed #8a9893; }
 
 /* fenêtre */
 dialog { border: 0; border-radius: 14px; padding: 0; width: min(640px, calc(100% - 32px)); max-height: calc(100% - 32px); box-shadow: 0 20px 60px rgb(0 0 0 / 25%); color: var(--texte); }
