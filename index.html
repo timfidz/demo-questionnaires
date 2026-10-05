@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Relais : questionnaires, suivi des demandes et contacts (démonstration)</title>
+  <meta name="description" content="Démonstration : créer des questionnaires, les partager par lien et QR code, suivre chaque réponse dans un tableau en trois colonnes et retrouver les contacts sans doublon.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <noscript><p class="noscript">Cette démonstration a besoin de JavaScript.</p></noscript>
+  </div>
+  <dialog id="dialogue" aria-labelledby="dialogue-titre"></dialog>
+  <div id="annonces" class="annonces" role="status" aria-live="polite"></div>
+  <script src="vendor/qrcode.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
